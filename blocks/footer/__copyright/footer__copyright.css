@@ -1,14 +1,22 @@
 .footer__copyright {
     color: white;
-    display: block;
+    margin: 0;
 }
 
-@media screen and (max-width:767px) {
+
+
+@media screen and (max-width: 1024px) {
+    .footer__copyright {
+        font-size: 14px;
+        align-self: flex-start;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
     .footer__copyright {
         padding-left: 16px;
         align-self: flex-end;
-        margin-left: -193px;
-        margin-top: 48px;
         font-size: 14px;
         line-height: 14px;
     }

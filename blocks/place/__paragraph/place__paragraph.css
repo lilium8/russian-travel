@@ -4,10 +4,30 @@
     color: #FFFFFF;
     font-size: 18px;
     line-height: 29px;
+    max-width: 456px;
+    box-sizing: border-box;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     .place__paragraph {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 358px) and (max-width: 768px) {
+    .place__paragraph {
+        font-size: 16px;
+        margin-bottom: 0;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        line-height: 26px;
+        min-width: 284px;
+        padding-left: 16px;
         font-size: 16px;
     }
 }

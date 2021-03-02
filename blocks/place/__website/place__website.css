@@ -2,9 +2,9 @@
     align-self: end;
 }
 
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 320px) {
     .place__website {
-        padding-left: 16px;
+        margin-left: 16px;
     }
 }
-

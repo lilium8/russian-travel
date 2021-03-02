@@ -2,8 +2,10 @@
     font-weight: 400;
     color: white;
     font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .place__link:hover {
-    opacity: 0.6;
+    opacity: 0.8;
 }

@@ -1,16 +1,19 @@
-.header__lang-en {
+.header__lang-item {
     font-size: 24px;
     line-height: 28px;
     color: white;
     font-weight: 400;
-    text-decoration: none;
+    text-decoration: none;  
 }
 
 
-@media scren and (max-width: 767px) {
-    .header__lang-en {
+
+
+@media screen and (max-width: 767px) {
+    .header__lang-item {
         font-size: 18px;
         font-weight: normal;
         line-height: 20px;
     }
 }
+
