@@ -12,12 +12,13 @@
 @media screen and (max-width: 1024px) {
     .place {
         grid-gap: 48px 32px;
+        margin-top: 65px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place {
-        grid-gap: 48px 32px;
+        grid-gap: 26px 32px;
         margin-top: 65px;
     }
 }
@@ -26,7 +27,7 @@
 @media screen and (max-width: 767px) {
     .place {
         grid-template-columns: 1fr;
-        grid-gap: 16px;
+        grid-gap: 32px;
         margin-top: 50px;
     }
 }
